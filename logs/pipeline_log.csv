@@ -1,0 +1,15 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+0 - Estado inicial,Dataset original JSON sin modificaciones,8160,753,100.0
+1 - Eliminación duplicados,Eliminación de 126 filas completamente duplicadas,8034,753,98.5
+2 - Normalización subscription_plan,Unificación de 15 variantes a 3 categorías (Básico / Estándar / Premium),8034,0,98.5
+3 - Normalización country,Unificación de 26 variantes a 7 países correctos,8034,0,98.5
+4 - Normalización favorite_genre,Unificación de 29 variantes a 7 géneros correctos,8034,240,98.5
+5 - Eliminación outliers age,Eliminación de registros con age < 13 o age > 100 (valores -5 / 130 / 150),7914,240,97.0
+6 - Eliminación outliers monthly_watch_time_mins,Eliminación de registros con valores negativos (-120 / -1) o imposibles (50000 / 99999),7644,193,93.7
+7 - Eliminación outliers customer_support_tickets,Eliminación de registros con tickets < 0 o > 50 (valores -1 / 99 / 150),7554,193,92.6
+8 - Imputación monthly_watch_time_mins,Imputación de 193 nulos con la mediana (759.4 min) — distribución aproximadamente simétrica,7554,0,92.6
+9 - Imputación favorite_genre,Imputación de 240 nulos con la moda (Comedia) — variable categórica nominal sin orden,7554,0,92.6
+10 - Normalización last_login_date,Unificación de formatos mixtos (YYYY-MM-DD y YYYY/MM/DD) a datetime,7554,320,92.6
+11 - Eliminación fechas futuras,Eliminación de 882 registros con last_login_date posterior al 2025-06-27,6672,320,81.8
+12 - Imputación last_login_date,Imputación de nulos restantes con la mediana de fechas válidas,6672,0,81.8
+13 - Dataset final guardado,Dataset procesado guardado en data/processed/streaming_users_clean.csv,6672,0,81.8
