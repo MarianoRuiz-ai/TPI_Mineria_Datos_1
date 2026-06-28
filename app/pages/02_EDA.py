@@ -71,7 +71,7 @@ st.markdown("## Análisis bivariado")
 st.markdown("### Visualización 3 — Watch time según plan de suscripción")
 fig3, axes3 = plt.subplots(1, 2, figsize=(13, 5))
 grupos = [df[df['subscription_plan'] == p]['monthly_watch_time_mins'] for p in orden_plan]
-bp = axes3[0].boxplot(grupos, labels=orden_plan, patch_artist=True)
+bp = axes3[0].boxplot(grupos, tick_labels=orden_plan, patch_artist=True)
 for patch, color in zip(bp['boxes'], colors_plan):
     patch.set_facecolor(color)
     patch.set_alpha(0.7)
