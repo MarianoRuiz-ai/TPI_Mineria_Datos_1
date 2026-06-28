@@ -15,11 +15,11 @@ with col1:
     st.markdown("### 📋 Información del proyecto")
     st.markdown("""
     **Materia:** Minería de Datos 1  
-    **Comisión:** [Completar]  
-    **Fecha de entrega:** [Completar]  
-    **Integrantes:**
-    - [Nombre Integrante 1]
-    - [Nombre Integrante 2]
+    **Comisión:** Nueva Espreanza-Turno Mañana  
+    **Fecha de entrega:** 30/06/26  
+    **Integrante:**
+    - Ruiz Mariano
+    
     """)
 
 with col2:
