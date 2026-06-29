@@ -1,7 +1,7 @@
 # Proyecto Integrador — Minería de Datos 1
 
 **Integrante:** Ruiz Mariano  
-**Comisión:** Nueva Esperanza-Turno mañana | **Fecha:** 30/06/26
+**Comisión:** Nueva Esperanza-Turno mañana | **Fecha:**
 
 ---
 
@@ -95,7 +95,7 @@ Las cuatro variables aportan varianza de forma distribuida, coherente con las ba
 
 ## Visualización interactiva
 
-Aplicación pública: [https://[app].streamlit.app](https://[app].streamlit.app)
+Aplicación pública: [https://tpimineriadatos1-ruizmariano1.streamlit.app/](https://tpimineriadatos1-ruizmariano1.streamlit.app/)
 
 La aplicación incluye descripción del dataset y resumen de calidad; 5 visualizaciones con interpretaciones sobre el EDA; scree plot, loadings y proyección PCA; y síntesis de conclusiones, limitaciones y próximos pasos.
 
@@ -104,8 +104,7 @@ La aplicación incluye descripción del dataset y resumen de calidad; 5 visualiz
 ## Cómo ejecutar localmente
 
 ```bash
-git clone https://github.com/[usuario]/PI_Mineria_Datos_1.git
-cd PI_Mineria_Datos_1
+git clone https://github.com/MarianoRuiz-ai/TPI_Mineria_Datos_1/https://github.com/MarianoRuiz-ai/TPI_Mineria_Datos_1
 pip install -r requirements.txt
 streamlit run app/Home.py
 ```
