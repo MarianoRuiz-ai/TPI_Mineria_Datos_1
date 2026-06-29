@@ -12,7 +12,7 @@ st.markdown("---")
 
 col1, col2 = st.columns(2)
 with col1:
-    st.markdown("### 📋 Información del proyecto")
+    st.markdown("###  Información del proyecto")
     st.markdown("""
     **Materia:** Minería de Datos 1  
     **Comisión:** Nueva Espreanza-Turno Mañana  
@@ -45,5 +45,5 @@ with col3:
 
 st.markdown("---")
 st.markdown("###  Repositorio")
-st.markdown("📁 [Ver repositorio en GitHub](https://github.com/[usuario]/PI_Mineria_Datos_1)")
+st.markdown("📁 [Ver repositorio en GitHub](https://github.com/MarianoRuiz-ai/TPI_Mineria_Datos_1)")
 st.caption("Navegá por las secciones usando el menú lateral.")
