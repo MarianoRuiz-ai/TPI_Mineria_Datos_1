@@ -58,8 +58,8 @@ st.info("""
 st.markdown("---")
 st.markdown("### 🔗 Referencias")
 st.markdown("""
-- 📁 [Repositorio GitHub](https://github.com/[usuario]/PI_Mineria_Datos_1)
-- 🌐 [Aplicación Streamlit Cloud](https://[app].streamlit.app)
+- 📁 [Repositorio GitHub](https://github.com/MarianoRuiz-ai/TPI_Mineria_Datos_1)
+- 🌐 [Aplicación Streamlit Cloud](https://tpimineriadatos1-ruizmariano1.streamlit.app/)
 - 📓 Notebooks: `notebooks/` (01 al 05)
 - 📄 Informe final: `reports/informe_final.pdf`
 - 📋 Log ETL: `logs/pipeline_log.csv`
